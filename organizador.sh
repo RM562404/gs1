@@ -12,4 +12,7 @@ else
     mkdir documentos
 fi
 
-move *.png imagens/ && move *.jpg imagens/ && move *.pdf documentos/ && move *.txt documentos/
+mv *.png imagens/ 2>/dev/null
+mv *.jpg imagens/ 2>/dev/null
+mv *.pdf documentos/ 2>/dev/null
+mv *.txt documentos/ 2>/dev/null
