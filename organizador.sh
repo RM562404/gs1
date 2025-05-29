@@ -1,13 +1,13 @@
 #!/bin/bash
 
 if echo "$(ls .)" | grep -q imagens; then
-    echo "Pasta imagens já existe"
+    echo ""
 else
     mkdir imagens
 fi
 
 if echo "$(ls .)" | grep -q documentos; then
-    echo "Pasta documentos já existe"
+    echo ""
 else
     mkdir documentos
 fi
